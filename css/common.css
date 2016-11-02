@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body,p,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd {
+
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+
+    color: #C81623;
+}
+
+input,img {
+
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+}
+
+i,s {
+    font-style: normal;
+    text-decoration: none;
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.public-color {
+    color: #C81623;;
+}
+
+.clearfix:after {
+    content: " ";
+    height: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+
+.clearfix {
+
+    zoom: 1;
+}
+.w {
+    width: 1170px;
+    margin: 0 auto;
+}

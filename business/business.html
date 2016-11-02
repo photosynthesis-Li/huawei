@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>华为 - 全球领先的信息与通信解决方案供应商</title>
+    <!--<link rel="stylesheet" href="css/common.css"/>-->
+    <link rel="stylesheet" href="css/business.css"/>
+    <link rel="icon" href="images/d-logo_ico.ico"/>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script>
+     $(function () {
+       $(".topnav li").mouseenter(function () {
+           $(this).addClass("li-public").siblings().removeClass("li-public");
+         var idx=$(this).index();
+         $(".bot-nav"). children().eq(idx).stop(false,true).slideDown().siblings().stop(false,true).slideUp();
+       })
+       $(".banner").mouseleave(function () {
+           $(".bot-nav"). children().stop(false,true).slideUp();
+           $(this).removeClass("li-public");
+       })
+         $(".tswiper img").mouseenter(function () {
+             $(this).css("opacity","0.4")
+         })
+         $(".tswiper img").mouseleave(function () {
+             $(this).css("opacity","1")
+         })
+
+         $(".fixbox li").mouseenter(function () {
+             $(this).css("opacity","1")
+         })
+         $(".fixbox li").mouseleave(function () {
+             $(this).css("opacity","0.4")
+         })
+
+         $(window).scroll(function () {
+                 if ($(window).scrollTop() >= 300) {
+                     $('#ul .li1').fadeIn(300);
+                 } else {
+                     $('#ul .li1').fadeOut(300);
+                 }
+             });
+
+
+         $("#ul .li1").click(function () {
+            $("html,body").animate({"scrollTop":"0px"},800)
+         })
+         $(".p-tact img").mouseenter(function () {
+            $(this).animate({"width":"125px","height":"125px"},400);
+         })
+         $(".p-tact img").mouseleave(function () {
+             $(this).animate({"width":"120px","height":"120px"},400);
+         })
+     })
+    </script>
+</head>
+<body>
+<!--topbanner开头-->
+<div class="topbanner">
+    <div class="center">
+        <a href="../index.html">首页</a>
+        <a href="">个人与家庭用户</a>
+        <a href="../interprise/interprise.html">企业用户</a>
+        <a href="">运营商用户</a>
+    </div>
+</div>
+<!--logo开始-->
+<div class="logo  clearfix">
+    <div class="center">
+        <div class="l_logo">
+            <a href="">
+                <img src="images/d_logo_new.png" alt=""/>
+            </a>
+        </div>
+        <div class="r_logo">
+            <ul>
+                <li><a href="">选择区域/语言</a>&nbsp&nbsp&nbsp| </li>
+                <li> <a href="">登录 </a>&nbsp&nbsp&nbsp|</li>
+                <li><a href="">注册</a>&nbsp&nbsp&nbsp|</li>
+                <div class="img">
+                    <a href="">
+                        <img src="images/d_facebook.png" alt=""/>
+                    </a>
+
+                    <a href="">
+                        <img src="images/d_nav_sm_twtter.png" alt=""/>
+                    </a>
+
+                    <a href="">
+                        <img src="images/d_nav_sm_linkin.png" alt=""/>
+                    </a>
+
+                    <a href="">
+                        <img src="images/d_wechat.png" alt=""/>
+                    </a>
+                </div>
+             </ul>
+
+        </div>
+    </div>
+</div>
+
+<!--banner开始-->
+
+<div class="banner">
+    <!--上面的li-->
+    <div class="topnav">
+        <div class="center">
+            <ul>
+                <li><a href="">行业洞察</a></li>
+                <li><a href="">行业热点</a></li>
+                <li><a href=""> 解决方案 &amp; 产品 &amp; 服务</a></li>
+                <li><a href=""> 技术支持</a></li>
+            </ul>
+            <div class="search">
+                <input type="text"/>
+                <span></span>
+            </div>
+        </div>
+       
+    </div>
+
+    <!--下面的div-->
+    <div class="bot-nav">
+         <div class="bot-nav1 clearfix center">
+          <div class="bot-left1">
+              <ul>
+                  <li><a href="">迈向全联接世界的开放之路</a></li>
+                  <li><a href="">流量红利</a></li>
+                  <li><a href="">数据红利</a></li>
+                  <li><a href="">信息红利</a></li>
+              </ul>
+          </div>
+          <div class="bot-right1">
+              <div class="bot-r-l"><img src="images/d_行业洞察广告位1.jpg" alt=""/></div>
+              <div class="bot-r-r">
+                 <h3>迈向全联接世界的开放之路</h3>
+                 未来，客户的体验需求将是ROADS化的:实时（Real-time），按需（On-demand），全在线（All-online），服务自助（DIY）和社交化（Social）的。
+              </div>
+          </div>
+          <div class="bot-right1">
+              <div class="bot-r-l"><img src="images/d_行业洞察广告位2.jpg" alt=""/></div>
+              <div class="bot-r-r">
+                  <h3>数据红利</h3>
+                  运营商掌握着丰富的管道资源，可以根据海量数据进行大数据分析，从数据中获取价值。
+              </div>
+          </div>
+      </div>
+         <div class="bot-nav1 clearfix center">
+            <div class="bot-left1">
+                <ul>
+                    <li><a href="">softCOM重构未来电信业</a></li>
+                    <li><a href="">无处不在的移动超宽带</a></li>
+                    <li><a href="">FMC2.0极致体验的融合超宽带</a></li>
+                    <li><a href="">数据中心整合与云化</a></li>
+                    <li><a href="">面向体验的ICT运营运维转型</a></li>
+                    <li><a href="">成就数字商业</a></li>
+                </ul>
+            </div>
+            <div class="bot-right1">
+                <div class="bot-r-l"><img src="images/d_telco-os.jpg" alt=""/></div>
+                <div class="bot-r-r">
+                    <h3>构建数字商业生态圈</h3>
+                    数字化正在改变着各个垂直行业，从生活到工作。运营商面对新一代的客户需求和来自互联网、新媒体等的竞争，也在积极地向“数字化”转身。
+                </div>
+            </div>
+            <div class="bot-right1">
+                <div class="bot-r-l"><img src="images/d_smallcell.jpg" alt=""/></div>
+                <div class="bot-r-r">
+                    <h3>Small Call 构建众包微生态</h3>
+                    MBB时代的室内外容量需求不断提升，80%的MBB流量来自于热点和室内区域。Small Call将点亮黄金热点，充分释放流量潜力，成为了提升网络质量和用户体验的关键。
+                </div>
+            </div>
+        </div>
+         <div class="bot-nav3 clearfix center">
+             <dl>
+                 <dt>解决方案</dt>
+                 <dd>移动宽带</dd>
+                 <dd>超宽带</dd>
+                 <dd>电信IT</dd>
+                 <dd>运营及基础设施转型</dd>
+                 <dd>视频无处不在</dd>
+
+
+             </dl>
+             <dl>
+                 <dt>产品</dt>
+                 <dd>无线网络</dd>
+                 <dd>固定网络</dd>
+                 <dd>云核心网</dd>
+                 <dd>电信软件</dd>
+                 <dd>IT</dd>
+                 <dd>网络能源</dd>
+
+             </dl>
+             <dl>
+                 <dt>服务</dt>
+                 <dd>咨询服务</dd>
+                 <dd>系统集成服务</dd>
+                 <dd>管理服务</dd>
+                 <dd>管理客户体验服务</dd>
+                 <dd>网络部署服务</dd>
+                 <dd>客户支持服务</dd>
+                 <dd>培训服务</dd>
+
+             </dl>
+
+         </div>
+         <div class="bot-nav4 clearfix center">
+             <div class="bot-nav4-l">
+                 <input type="text" value="请输入关键字"/>
+                 <ul>
+                     <li>无线网络</li>
+                     <li>核心网</li>
+                     <li>电信网件</li>
+                     <li>数通</li>
+                     <li>传送网</li>
+                 </ul>
+                 <ul>
+                     <li>接入网</li>
+                     <li>网络能源</li>
+                     <li>网络产品解决方案</li>
+                     <li>全球服务</li>
+                 </ul>
+             </div>
+             <div class="bot-nav4-m">
+                 <dl>
+                     <dt>产品支持</dt>
+                     <dd>Group Space</dd>
+                     <dd>公告</dd>
+                     <dd>华为资料直通车</dd>
+                     <dd>培训</dd>
+                     <dd>HedEX Lite</dd>
+                     <dd>知道社区</dd>
+                 </dl>
+             </div>
+             <div class="bot-nav4-r">
+                 <div class="bot-right1">
+                     <div class="bot-r-l"><img src="images/d_group_nav_support.jpg" alt=""/></div>
+                     <div class="bot-r-r">
+                         在线技术支持、软件下载、文档共享，无论您遇到任何问题，我们都将随时为您提供服务。
+                     </div>
+                 </div>
+             </div>
+
+             </div>
+    </div>
+</div>
+
+<!--picture开始-->
+<div class="all" id='box'>
+    <div class="screen">
+        <ul>
+            <li><img src="images/d_01_bg.jpg" width="1349" height="540"/>
+                <img src="images/d_banner3.png" id="img1" alt=""/>
+                <span id="simg1"><a href="#">了解更多</a></span>
+            </li>
+            <li><img src="images/d_BCN+banner_bg.jpg" width="1349" height="540"/>
+                <img src="images/d_BANNER1.png" id="img2" alt=""/>
+                <span id="simg2"><a href="#">了解更多</a></span>
+
+            </li>
+            <li><img src="images/d_BCN+banner_bg.jpg" width="1349" height="540"/>
+                <img src="images/d_BANNER2.png" id="img3" alt=""/>
+                <span id="simg3"><a href="#">了解更多</a></span>
+            </li>
+        </ul>
+        <ol>
+
+        </ol>
+    </div>
+    <div id="arr">
+            <span id="left">
+                <img src="images/aprev.png" alt=""/>
+            </span>
+            <span id="right">
+                <img src="images/anext.png" alt=""/>
+            </span>
+    </div>
+</div>
+<script src="js/animate.js"></script>
+<script>
+    var box = document.getElementById("box");
+    var screen = box.children[0];
+    var ul = screen.children[0];
+    var ulList = ul.children;
+    var ol = screen.children[1];
+    var imgWidth = screen.offsetWidth;
+    var arr = document.getElementById("arr");
+    var leftArr = document.getElementById("left");
+    var rightArr = document.getElementById("right");
+    var timer = null;
+    for(var i = 0; i < ulList.length; i++){
+        var li = document.createElement("li");
+        ol.appendChild(li);
+    }
+    var cloneLi = ulList[0].cloneNode(true);
+    ul.appendChild(cloneLi);
+    var olList = ol.children;
+    olList[0].className = "current";
+    for(var i = 0; i < olList.length; i++){
+        olList[i].index = i;
+        olList[i].onmouseover = function(){
+            for(var j = 0; j <olList.length; j++){
+                olList[j].className = "";
+            }
+            this.className = "current";
+            var idx = this.index;
+            var target = -idx *imgWidth;
+            console.log(target);
+            animate(ul,target);
+            square = pic = idx ;
+        }
+    }
+    box.onmouseover = function(){
+        arr.style.display ="block";
+        clearInterval(timer);
+    }
+    box.onmouseout = function(){
+        arr.style.display ="none";
+        timer = setInterval(function(){
+            rightArr.click();
+        },2000)
+    }
+    var pic = 0;
+    var square = 0;
+    rightArr.onclick = function(){
+        if(pic == ulList.length - 1){
+            pic = 0;
+            ul.style.left = "0px";
+        }
+        pic ++;
+        ul.style.left = -pic * imgWidth +"px";
+
+
+        if(square == olList.length -1){
+            square = 0;
+        }else {
+            square ++;
+        }
+
+        for(var i = 0; i < olList.length; i++){
+            olList[i].className = "";
+        }
+        olList[square].className = "current";
+
+    }
+    leftArr.onclick = function(){
+        if(pic == 0){
+            pic = ulList.length -1;
+            ul.style.left = -pic *imgWidth + "px";
+        }
+        pic--;
+        ul.style.left = -pic *imgWidth +"px";
+        if(square == 0){
+            square = olList.length -1;
+        }else {
+            square--;
+        }
+
+        for(var i = 0; i < olList.length; i++){
+            olList[i].className = "";
+        }
+        olList[square].className = "current";
+    }
+    timer = setInterval(function(){
+        rightArr.click();
+    },2000)
+</script>
+
+<!--news开始-->
+<div class="tnews">
+    <div class="center">
+        <div class="tnew-l">
+            <img src="images/d_homepage_news_01.png" alt=""/>
+            <span>新闻</span>
+        </div>
+        <div class="tnew-r">
+            <div class="new_r">
+                <ul id="list">
+                    <li class="current" >
+                        华为消费者业务发布2016年上半年业绩
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="arr">
+            <div class="top" id="up">
+                <img src="images/d_jts.png" alt=""/>
+            </div>
+            <div class="bottom" id="down">
+                <img src="images/d_jtx.png" alt=""/>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    var array= ['华为消费者业务发布2016年上半年业绩','华为客户体验管理解决方案扩展至固网领域','华为发布云开放实验室','Telefonica携手华为在慕尼黑TechCity建4.5G网络','华为发布SPTN2.0解决方案，构筑最佳体验的4.5G承载网','华为助力德国沃达丰成功商用4.5G，创德国无线网络峰值新标杆','沃达丰与华为联合试点最新4.5G 技术，为5G演进奠定基础 华为发布“非洲MBB 2020战略”，把握移动宽带联接机遇','华为消费者业务发布2016年上半年业绩','华为客户体验管理解决方案扩展至固网领域']
+    var up=document.getElementById("up");
+    var down=document.getElementById("down");
+    var list=document.getElementById("list");
+    var li=list.children[0];
+    var idx=0;
+
+    down.onclick = function(){
+
+        idx++;
+        li.innerHTML = array[idx];
+        if(idx == array.length-1){
+            idx = 0;
+        }
+    }
+    up.onclick= function () {
+        if(idx == 0){
+            idx = array.length-2;
+        }
+        li.innerHTML = array[idx];
+        idx--;
+    }
+
+</script>
+<!--swiper开始-->
+<div class="tswiper  center clearfix">
+    <div class="t_tswiper">
+        <div class="t_tswiper1 public">
+            <div class="t_tsw">
+                <img src="images/d_ROADS+800x600px.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">迈向全联接世界的开放之路</a></h2>
+                <span>在未来，伫立着一个更美好的全联接世界。华为期待与您一起，在迈向全联接世界的开放之路上合作共赢!</span>
+            </div>
+
+        </div>
+        <div class="t_tswiper2 public">
+            <div class="t_tsw">
+                <img src="images/d_视频无处不在峰会-800-600.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">大数据</a></h2>
+
+                <span>视频无处不在，将成为未来人们沟通与娱乐的主要承载形式。视频业务将成为运营商的基础业务，引领运营商业务转型。</span>
+            </div>
+
+        </div>
+        <div class="t_tswiper3 public">
+            <div class="t_tsw">
+                <img src="images/d_数据中心.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">大IT</a></h2>
+
+                <span>数字时代，电信运营商需要为用户提供以ROADS为代表的互联网化体验，为此运营商需要重塑其IT系统，将其从内部支撑系统转变为价值生产系统。</span>
+            </div>
+
+        </div>
+    </div>
+    <div class="b_tswiper">
+        <div class="t_tswiper4 public">
+            <div class="t_tsw">
+                <img src="images/d_CT到ICT.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">大运营</a></h2>
+
+                <span>体验是运营商实现新增长的重要驱动力，要实现ROADS体验需要整个行业进行思考和探索如何对运营和基础设施进行重构。</span>
+            </div>
+
+        </div>
+        <div class="t_tswiper5 public">
+            <div class="t_tsw">
+                <img src="images/d_softcom.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">大架构</a></h2>
+
+                <span>利用软件定义网络、网络功能虚拟化及云计算技术，建立以数据中心为中心的ICT基础架构，适应信息时代的发展要求。</span>
+            </div>
+
+        </div>
+        <div class="t_tswiper6 public">
+            <div class="t_tsw">
+                <img src="images/d_大管道.jpg" alt="" width="370" height="278"/>
+            </div>
+            <div class="b_tws">
+                <h2><a href="#">大管道</a></h2>
+
+                <span>从全球运营商的成功实践看，运营商只有在新基础业务上充分发挥其管道优势和服务优势，构筑泛在超宽带，才能确保用户业务体验上的差异化，让ROADS体验无处不在。</span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--展会活动开始-->
+
+<div class="t_active">
+   <div class="center">
+       <!--上面的-->
+       <div class="t_tact">
+            展会活动
+       </div>
+       <!--下面的-->
+       <div class="b_tact">
+           <div class="p-tact">
+               <h2>华为全联接大会</h2>
+               <img src="images/d_旗舰大会CN.jpg" alt=""/>
+               <div class="b_btact">
+                   <p>塑造云时代</p>
+                   <p>中国,上海</p>
+                   <p>2016年8月31日-9月2日</p>
+               </div>
+           </div>
+           <div class="p-tact">
+               <h2>世界移动大会——巴塞罗那</h2>
+               <img src="images/d_大巴展CN.jpg" alt=""/>
+               <div class="b_btact">
+                   <p>迈向全联接世界的开放之路</p>
+                   <p>西班牙,巴塞罗那</p>
+                   <p>2016年2月22日-2月25日</p>
+               </div>
+           </div>
+           <div class="p-tact">
+               <h2>世界移动大会——上海</h2>
+               <img src="images/d_MWC上海CN.jpg" alt=""/>
+               <div class="b_btact">
+                   <p>迈向全联接世界的开放之路</p>
+                   <p>中国,上海</p>
+                   <p>2016年6月29日-7月1日</p>
+               </div>
+           </div>
+       </div>
+   </div>
+
+</div>
+
+<!--footer开始-->
+<div class="footer">
+    <div class="center">
+        <dl>
+            <dt>按访问者</dt>
+            <dd>个人用户</dd>
+            <dd>企业用户</dd>
+            <dd>媒体</dd>
+            <dd>合作伙伴</dd>
+        </dl>
+        <dl>
+            <dt>关于华为</dt>
+            <dd>公司简介</dd>
+            <dd>展会活动</dd>
+            <dd>新闻</dd>
+        </dl>
+        <dl>
+            <dt>公告</dt>
+            <dd>网络安全声明</dd>
+            <dd>安全通告</dd>
+            <dd>产品生命周期公告</dd>
+        </dl>
+        <dl>
+            <dt>快速链接</dt>
+            <dd>消费者业务</dd>
+            <dd>华为企业</dd>
+            <dd>企业业务</dd>
+            <dd>华为海洋</dd>
+        </dl>
+        <div class="right">
+            <img src="images/afoot.png" alt=""/>
+            <ul class="clearfix">
+                <li><img src="images/af3.png" alt=""/></li>
+                <li><img src="images/af4.png" alt=""/></li>
+                <li><img src="images/af2.png" alt=""/></li>
+
+            </ul>
+            <a href="#" id="gfwx"><img src="images/achat.jpg" alt="" /></a>
+            <p>官方微信</p>
+        </div>
+        <div style="clear: both"></div>
+        <div class="bottom">
+            <div class="bt_l">
+                ©2016 华为技术有限公司&nbsp;&nbsp;粤A2-20044005号
+            </div>
+            <div class="bt_r">
+                <ul>
+                    <li><a href="#">法律声明</a></li>
+                    <li>|</li>
+                    <li><a href="#">隐私保护</a></li>
+                    <li>|</li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--固定定位的盒子-->
+<div class="fixbox">
+    <ul id="ul">
+        <li class="li1"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<script>
+    var ull = document.getElementById("ul");
+    var lis = ull.children;
+    for(var i=0;i<lis.length;i++){
+        lis[i].style.background="url(images/d_icon_all.png) no-repeat 0  "+(-i*48)+"px";
+        lis[i].style.backgroundColor="#c3c3c3";
+    }
+</script>
+</body>
+</html>

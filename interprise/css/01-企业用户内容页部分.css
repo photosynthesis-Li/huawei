@@ -1,0 +1,396 @@
+@charset "UTF-8";
+
+/*CSS初始化*/
+
+.box {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.border {
+    border: 2px solid #A4A4A4;
+
+}
+
+.dispaly {
+    display:none;
+}
+
+.show {
+    display:block;
+}
+/*迎接“新ICT”时代部分开始*/
+
+.c-ITC {
+    margin-top: 36px;
+}
+
+.c-ITC .public {
+    height: 416px;
+    width: 370px;
+}
+
+.c-ITC .left {
+    float: left;
+    margin-right: 30px;
+}
+
+.c-ITC .center {
+    float: left;
+    margin-right: 30px;
+}
+
+.c-ITC .right {
+    float: right;
+}
+
+.public .txt {
+    margin-top: 16px;
+}
+
+.public .txt .txt-hd {
+    font-size: 20px;
+    height: 30px;
+}
+
+.public .txt .cont {
+    height: 30px;
+    font-size: 16px;
+}
+
+/*中间视频部分开始*/
+
+
+.video {
+    position: relative;
+
+}
+.video-img {
+    height: 576px;
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.video-img:hover{
+    cursor: pointer;
+}
+
+.video-img h1 {
+    font-size: 39px;
+    position: absolute;
+    top: 94px;
+    left: 287px;
+    color: white;
+}
+
+.video-img .video-p {
+    font-size: 20px;
+    position: absolute;
+    top: 153px;
+    left: 364px;
+    color: white;
+}
+
+.video-img i {
+    position: absolute;
+    top: 250px;
+    left: 553px;
+}
+
+
+
+/*华为新闻开始*/
+.new {
+    height: 411px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+/*左边部分开始*/
+.qy-big .new-l {
+    width: 384px;
+    overflow: hidden;
+    float: left;
+}
+
+.qy-big .new-l h1 {
+    margin-top: 37px;
+    margin-bottom: 26px;
+    font-size: 22px;
+}
+
+.new-l .newl-pub .pub-cont {
+    width: 384px;
+    height: 52px;
+    margin-bottom: 30px;
+
+}
+
+.new-l .newl-pub .pub-sqr {
+    height: 52px;
+    width: 52px;
+    background-color: #81878F;
+    text-align: center;
+    font-weight: 700;
+    float: left;
+}
+
+.newl-pub .pub-sqr .p1 {
+    font-size: 26px;
+    color: white;
+}
+
+.newl-pub .pub-sqr .p2 {
+    font-size: 10px;
+    color: white;
+}
+
+.newl-pub .pub-txt {
+    float: left;
+    padding-left: 15px;
+    margin-top: 4px;
+    width: 234px;
+    font-size: 15px;
+}
+
+.newl-pub .pub-txt a {
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+/*左边分割线开始*/
+.new .box .l-line {
+    background-color: #E7E7E7;
+    width: 1px;
+    height: 316px;
+    margin-top: 12px;
+    margin-left: 0px;
+    float: left;
+}
+
+/*中间部分开始*/
+.new .box .new-m {
+    float: left;
+    padding-left: 65px;
+    width: 400px;
+}
+
+.box .new-m .new-p1 {
+    margin-top: 40px;
+    height: 47px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.box .new-m img {
+    margin-bottom: 18px;
+}
+
+.box .new-m .new-p2 {
+    height: 30px;
+    font-size: 19px;
+}
+
+/*右边分割线*/
+.new .box .r-line {
+    background-color: #E7E7E7;
+    width: 1px;
+    height: 390px;
+    margin-top: 12px;
+    margin-left: -25px;
+    float: left;
+}
+
+/*右边部分开始*/
+.box .new-r {
+    float: right;
+    /*transition: width 2s;*/
+    /*-webkit-transition: width 2s;*/
+
+}
+/*.box .new-r:hover*/
+/*{*/
+    /*width:300px;*/
+/*}*/
+
+
+.box .new-r .p1 {
+    margin-top: 40px;
+    height: 47px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.box .new-r img {
+    margin-bottom: 18px;
+}
+
+.box .new-r .p2 {
+    height: 30px;
+    font-size: 19px;
+}
+
+
+/*友情链接部分开始*/
+.friendlink {
+    height:300px;
+    background-color: #272727;
+    /*margin-top: 20px;*/
+    padding-top: 40px;
+    position: relative;
+}
+
+.friendlink .foot-l a:hover {
+    cursor: pointer;
+    color:goldenrod;
+}
+/*左边部分开始*/
+.friendlink .foot-l {
+    width: 800px;
+    height: 290px;
+    float: left;
+}
+
+.foot-l dl {
+    float: left;
+    margin-right: 60px;
+}
+
+.foot-l dl dt {
+    height: 43px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.foot-l dl dt {
+    color: #FFFFFF;
+}
+.foot-l dl dd a{
+    color: #FFFFFF;
+}
+
+.foot-l dl dd {
+    height: 33px;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+
+
+.foot-l dl dt{
+    /*line-height: 42px;*/
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.foot-l dl dt:hover {
+    cursor: pointer;
+    color:blue;
+    text-shadow: 2px 2px 5px pink ;
+}
+.foot-l dl dd {
+    line-height: 33px;
+    font-size: 15px;
+    color: white;
+
+}
+.foot-l dl dd:hover {
+    cursor: pointer;
+    color:goldenrod;
+}
+
+.foot-l p {
+    float: left;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+/*右边部分开始*/
+
+.friendlink .foot-r a:hover {
+    color: red;
+}
+.friendlink .foot-r {
+    width:347px;
+    height: 290px;
+    float: right;
+}
+
+.foot-r .img {
+    margin-top:16px;
+    margin-bottom: 24px;
+}
+/*三个小图标*/
+.foot-r .img a {
+    margin-right: 26px;
+}
+
+/*二维码*/
+.foot-r .ewm {
+    margin-bottom: 34px;
+}
+
+.foot-r .ewm .wx {
+    float: left;
+    text-align: center;
+    margin-right: 27px;
+
+}
+
+ .ewm .wx p {
+     color: #FFFFFF;
+ }
+
+.foot-r .ewm  a {
+     color: #FFFFFF;
+ }
+
+.foot-r .ewm .app {
+    float: left;
+    text-align: center;
+}
+
+.foot-r .ewm .wx p{
+    font-size: 17px;
+    margin-top: 17px;
+
+}
+.foot-r .ewm .app p{
+    font-size: 17px;
+    margin-top: 17px;
+}
+
+/*隐私保护*/
+.foot-r .ysbh a{
+    display: block;
+    float: left;
+    color: #FFFFFF;
+}
+
+.foot-r .ysbh .a4 {
+    border-left: 1px solid #FFFFFF;
+    padding: 0 8px;
+}
+
+
+.foot-r .ysbh .a1 {
+    padding-right: 8px;
+}
+
+/*返回顶部图标*/
+.ret-top {
+    width:60px;
+    height:60px;
+}
+
+
+.ret-top img {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

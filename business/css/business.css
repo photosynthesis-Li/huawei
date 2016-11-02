@@ -1,0 +1,629 @@
+@charset "utf-8";
+
+body,p,div,h1,h2,h3,h4,h5,h6,ul,li,dl,ol,dd,dt{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #333;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+input,img {
+    outline-style: none;
+    border:0 none;
+    margin: 0;
+    padding: 0;
+}
+.center {
+    width: 1170px;
+    margin:0 auto;
+}
+.clearfix:after{
+    content:"0";
+    height: 0;
+    line-height: 0;
+    clear:both;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;
+}
+
+.public-color{
+    color:#B61D1D;
+}
+/*topbanner开头*/
+.topbanner{
+    height: 36px;
+    background-color: #5D5D58;
+}
+.topbanner a{
+    display:inline-block ;
+    float: left;
+    line-height: 36px;
+    color:#ccc;
+    font-size:16px ;
+    padding:0 15px;
+}
+.topbanner a:hover{
+    background-color:#333;
+    color:#ccc;
+}
+/*logo开始*/
+.logo{
+padding-bottom: 15px;
+}
+.logo  .l-logo img{
+    width: 167px;
+    height: 40px;
+    line-height: 48px;
+    float: left;
+}
+.l_logo{
+    float: left;
+    margin-top: 20px;
+}
+.r_logo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.r_logo ul{
+    float: right;
+    height: 38px;
+    line-height: 38px;
+}
+.r_logo li{
+    float: left;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 0 6px;
+}
+.r_logo li a{
+    display: inline-block;
+}
+.r_logo li a:hover{
+    color: red;
+}
+
+.r_logo .img{
+    float: right;
+    height: 38px;
+    line-height: 38px;
+}
+.r_logo img{
+    width: 38px;
+    height: 38px;
+    vertical-align: middle;
+  }
+
+/*banner开始*/
+.banner{
+    background-color: #F7F7F7;
+}
+.banner .topnav{
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+.topnav li{
+    float: left;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.li-public{
+    border-bottom: 2px solid red;
+}
+.topnav li a{
+    font-size: 16px;
+}
+.topnav li a:hover{
+    color: red;
+}
+.topnav .search{
+    float: right;
+    position: relative;
+}
+.topnav input{
+    margin-top: 7px;
+    float: left;
+    height: 37px;
+    border-left:1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+
+}
+
+.topnav span{
+    float: left;
+    width: 23px;
+    height: 23px;
+    background: url(../images/d_icon_find.png) no-repeat right;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}
+.bot-nav{
+    background-color: #F7F7F7;
+}
+.bot-nav1{
+    display: none;
+    height: 350px;
+    padding-top: 15px;
+}
+
+.bot-nav1 .bot-left1 ul{
+
+    width: 298px;
+    float: left;
+}
+.bot-left1 ul li{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #9D9D9D;
+}
+.bot-left1 ul li a{
+    font-size: 18px;
+}
+.bot-left1 ul li a:hover{
+    color: #023399;
+   text-decoration: underline;
+}
+
+.bot-right1 {
+    float: left;
+    width: 273px;
+    margin-left: 120px;
+}
+.bot-right1 .bot-r-r {
+   font-size: 15px;
+    height: 30px;
+    line-height: 30px;
+}
+.bot-right1 .bot-r-r h3{
+    font-size: 16px;
+}
+
+.bot-nav3{
+    display: none;
+    height: 320px;
+    padding-top: 45px;
+}
+.bot-nav3 dl{
+    float: left;
+}
+.bot-nav3 dt{
+    font-weight: 700;
+    height: 30px;
+    font-size: 16px;
+    padding-right: 200px;
+}
+.bot-nav3 dd{
+    height: 30px;
+    font-size: 15px;
+}
+.bot-nav4{
+    display: none;
+    height: 350px;
+    padding-top: 15px;
+}
+.bot-nav4 .bot-nav4-l{
+    float: left;
+}
+.bot-nav4 .bot-nav4-l input{
+    width: 303px;
+    height: 35px;
+    padding-left: 15px;
+    display: block;
+    border: 1px solid #9D9D9D;
+    font-size: 16px;
+    color: #9D9D9D;
+}
+.bot-nav4-l ul{
+    margin-top: 35px;
+    float: left;
+    padding-right: 123px;
+}
+.bot-nav4-l ul li{
+    height: 30px;
+    font-size: 15px;
+}
+
+.bot-nav4-m{
+    float: left;
+    padding-top: 20px;
+}
+.bot-nav4-m dt{
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-left: 60px;
+}
+.bot-nav4-m dd{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 60px;
+    font-size: 18px;
+}
+
+.bot-nav4-r{
+    float: left;
+}
+
+/*picture开始*/
+.all {
+    position: relative;
+}
+.screen {
+    width: 1349px;
+    height: 540px;
+    overflow: hidden;
+    position: relative;
+}
+.screen li{
+    position: relative;
+}
+.screen #img2{
+    position: absolute;
+    top:90px;
+    left:126px;
+}
+.screen #img1{
+    position: absolute;
+    top:90px;
+    left:209px;
+}
+.screen #img3{
+    position: absolute;
+    top:77px;
+    left:209px;
+}
+.screen #simg1{
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #B33738;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+    position: absolute;
+    left:208px;
+    bottom:144px;
+}
+.screen #simg2{
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #B33738;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+    position: absolute;
+    left:300px;
+    bottom: 60px;
+}
+.screen #simg3{
+    width: 108px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #B33738;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 16px;
+    position: absolute;
+    left:325px;
+    top:390px;
+}
+.screen a{
+    color:#FDFCFC;
+}
+.screen a:hover{
+    background-color:#B33738;
+    color:#FDFCFC ;
+    text-decoration:underline;
+}
+.screen #img3{
+    position: absolute;
+    top:90px;
+    left:126px;
+}
+.screen ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5400px;
+}
+.screen li {
+    width: 1349px;
+    height: 540px;
+    float: left;
+}
+#arr {
+    display: none;
+}
+#arr span{
+    position: absolute;
+    cursor: pointer;
+}
+#arr #left {
+    top: 230px;
+    left: 28px;
+}
+#arr #right {
+    top: 230px;
+    right: 28px;
+}
+.all ol {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.all ol li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    background: #868686;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.all ol li.current {
+    background: white;
+}
+
+/*新闻开始*/
+.tnews .center{
+    margin-top: 16px;
+    height: 56px;
+    background-color:#F7F7F7;
+    position: relative;
+}
+.tnews img{
+    float: left;
+}
+.tnews span{
+    font-size:20px;
+    display: inline-block;
+    line-height: 56px;
+    position: absolute;
+    left:55px;
+}
+
+.tnews .tnew-r li{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 56px;
+    cursor: pointer;
+}
+.tnews .tnew-r li:hover{
+    background-color:white;
+    color: #333;
+    text-decoration:underline;
+}
+.tnews .top{
+    position: absolute;
+    top:15px;
+    right:10px;
+    cursor: pointer;
+}
+.tnews .bottom{
+    position: absolute;
+    top:35px;
+    right:10px;
+    cursor: pointer;
+}
+.tnews .tn1{
+    font-size: 18px;
+}
+.t_tswiper{
+    width: 2000px;
+    margin-top: 16px;
+
+}
+.b_tswiper{
+    width: 1200px;
+    margin-top: 33px;
+    padding-bottom: 25px;
+}
+.public{
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+
+}
+.public a{
+    font-size: 18px;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.public a:hover{
+    background-color: #fff;
+    color: blue;
+    text-decoration:underline;
+}
+.public span{
+    display: inline-block;
+    height: 100px;
+    line-height: 26px;
+    font-size:16px;
+    cursor: pointer;
+}
+
+/*展会活动*/
+
+.t_active{
+height: 285px;
+margin-top: 20px;
+background-color: #F5F5F5;
+}
+
+.t_active .t_tact{
+    width: 1170px;
+    text-align: center;
+    font-size:25px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.p-tact{
+    float: left;
+    width: 330px;
+    height: 188px;
+    position: relative;
+    margin-right: 60px;
+}
+.p-tact h2{
+    font-weight: 100;
+    font-size: 18px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.p-tact img{
+    position: absolute;
+}
+.b_btact{
+    position: absolute;
+    left: 130px;
+    top: 60px;
+}
+.p-tact img:hover{
+    box-shadow: 2px 3px 0px 0px #A4A4A4;
+}
+.b_btact p{
+     font-size:16px;
+     height: 30px;
+}
+
+/*底部开始*/
+.footer{
+    height: 360px;
+    background-color: #272727;
+}
+.footer dl {
+    float: left;
+    width: 192px;
+}
+.footer dl dt{
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+    margin-top: 36px;
+    margin-bottom: 10px;
+}
+.footer dl dt:hover {
+    cursor: pointer;
+    color:blue;
+    text-shadow: 2px 2px 5px pink ;
+}
+.footer dl dd {
+    line-height: 33px;
+    font-size: 15px;
+    color: white;
+}
+.footer dl dd:hover {
+    cursor: pointer;
+    color:goldenrod;
+}
+
+.footer .right {
+    float: right;
+    margin-top: 25px;
+}
+.footer .right ul{
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+.footer .right li {
+    float: left;
+    margin-right: 20px;
+}
+.footer .right p {
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+}
+.footer .right a{
+    display: inline-block;
+
+}
+.footer .right a:hover{
+    box-shadow: 0px 0px 10px 5px #cccccc;
+}
+.footer .bottom {
+    margin-top: 30px;
+
+}
+.footer .bottom .bt_l{
+    float: left;
+    color: white;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.footer .bottom .bt_r{
+    float: right;
+    position: absolute;
+    right: 180px;
+    margin-top: 30px;
+}
+.footer .bottom .bt_r li {
+    float: left;
+    margin-right: 14px;
+    color: white;
+    font-size: 13px;
+}
+.footer .bottom .bt_r li a{
+    color: white;
+}
+
+/*固定盒子*/
+.fixbox {
+    width: 48px;
+    position: fixed;
+    /*bottom: 30%;*/
+    top: 220px;
+    right: 0;
+    z-index: 999;
+
+}
+.fixbox li {
+    width: 48px;
+    height: 48px;
+    background-color: #A4A4A4;
+    opacity: 0.4;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+#ul .li1{
+    display: none;
+}
+
+@keyframes myfirst
+{
+    from {transform: rotateX(180deg)
+    }
+    to {transform: rotate(360deg);}
+
+}
+.t_tsw:hover {
+    cursor:pointer;
+    animation: myfirst 1.5s;
+    box-shadow: 0px 0px 20px 10px #5C5C5C;
+}
+

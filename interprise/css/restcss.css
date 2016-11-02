@@ -1,0 +1,23 @@
+/*
+* @Author: zhu
+* @Date:   2016-07-19 08:18:42
+* @Last Modified by:   zhu
+* @Last Modified time: 2016-07-23 09:43:33
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:15px; font-family: Microsoft YaHei, Arial, Helvetica, sans-serif; line-height: 28px;}
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+/*a:hover { text-decoration:underline; }*/
+img { border:none; visibility: bottom;}
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; outline-style: none;}
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+img{vertical-align: middle; border: 0;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
